@@ -16,8 +16,25 @@
 % Latent node
 \tikzstyle{latent} = [circle,fill=white,draw=black,inner sep=1pt,
 minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+% Discrete Latent node
+\tikzstyle{dislatent} = [rectangle,fill=white,draw=black,inner sep=1pt,
+minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+% Deterministic Latent node
+\tikzstyle{detlatent} = [circle,double,fill=white,draw=black,inner sep=1pt,
+minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+% Deterministic Discrete Latent node
+\tikzstyle{detdislatent} = [reactangle,double,fill=white,draw=black,inner sep=1pt,
+minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+
 % Observed node
 \tikzstyle{obs} = [latent,fill=gray!25]
+% Discrete Observed node
+\tikzstyle{disobs} = [dislatent,fill=gray!25]
+% Deterministic Observed node
+\tikzstyle{detobs} = [detlatent,fill=gray!25]
+% Deterministic Discrete Observed node
+\tikzstyle{detdisobs} = [detdislatent,fill=gray!25]
+
 % Constant node
 \tikzstyle{const} = [rectangle, inner sep=0pt, node distance=1]
 % Factor node
